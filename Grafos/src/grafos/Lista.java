@@ -34,7 +34,7 @@ public class Lista {
     public void mostrarX(int valor) {
         boolean flag = true;
         while (node.valor != valor && flag) {
-            //if() ha
+            //if() haa
         }
 
     }
