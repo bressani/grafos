@@ -1,0 +1,30 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package grafos;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author venator
+ */
+public class Grafos {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        Lista lista = new Lista(1);
+
+        lista.ligarY(2);
+        lista.ligarY(5);
+        lista.ligarY(3);
+        lista.mostrarY();
+
+    }
+
+}
